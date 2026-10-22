@@ -24,7 +24,7 @@ const GuildBuildPortal={
 document.querySelectorAll("#year").forEach(x=>x.textContent=new Date().getFullYear());
 
 (async function(){
- if(!["home","roaming"].includes(document.body.dataset.page))return;
+ if(!["zerg","roaming"].includes(document.body.dataset.page))return;
  const isRoaming=document.body.dataset.page==="roaming";
  const buildData=isRoaming?"data/roaming.json":"data/builds.json";
  const buildSource=isRoaming?"roaming":"zerg";
