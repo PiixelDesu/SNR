@@ -104,7 +104,7 @@
    const id=GuildBuildPortal.qs("id");
    const source=GuildBuildPortal.qs("source")==="roaming"?"roaming":"zerg";
    const buildData=source==="roaming"?"data/roaming.json":"data/builds.json";
-   const backHref=source==="roaming"?"./roaming.html":"./";
+   const backHref=source==="roaming"?"./roaming/":"./zerg/";
    const [professions,builds,icons,sync]=await Promise.all([GuildBuildPortal.json("data/professions.json"),GuildBuildPortal.json(buildData),GuildBuildPortal.gw2Icons(),optionalJson("data/gw2-build-codes.json")]);
    const b=builds.find(x=>x.id===id);if(!b)throw new Error(`Build "${id||""}" was not found in ${buildData}.`);
    const p=professions.find(x=>x.id===b.profession);document.title=`${b.name} · GuildBuildPortal Builds`;

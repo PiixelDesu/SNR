@@ -17,7 +17,7 @@ const escapeHTML=value=>String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<
 const professionName=b=>squadProfessions[String(b.profession||"").toLowerCase()]||String(b.profession||"Unknown");
 const buildLink=b=>{
   const icon=iconFor(b);
-  return `<a class="squad-build-link" href="../build.html?id=${encodeURIComponent(String(b.id))}">${icon?`<img class="squad-build-icon" src="${escapeHTML(icon)}" alt="" loading="lazy">`:""}<span class="squad-build-label"><span class="squad-build-spec">${escapeHTML(b.specialization||b.name||"Build")}</span><small>${escapeHTML(professionName(b))}</small></span></a>`;
+  return `<a class="squad-build-link" href="../build/?id=${encodeURIComponent(String(b.id))}">${icon?`<img class="squad-build-icon" src="${escapeHTML(icon)}" alt="" loading="lazy">`:""}<span class="squad-build-label"><span class="squad-build-spec">${escapeHTML(b.specialization||b.name||"Build")}</span><small>${escapeHTML(professionName(b))}</small></span></a>`;
 };
 const sortBuilds=(a,b)=>professionName(a).localeCompare(professionName(b))||String(a.specialization||"").localeCompare(String(b.specialization||""));
 document.getElementById("year").textContent=new Date().getFullYear();

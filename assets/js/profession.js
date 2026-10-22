@@ -29,7 +29,7 @@
         <p class="empty-note">GuildBuildPortal build not assigned yet.</p>
       </div>`;
     return `
-      <a class="slot-card role-card" style="--profession:${p.color}" href="./build.html?id=${b.id}">
+      <a class="slot-card role-card" style="--profession:${p.color}" href="./build/?id=${b.id}">
         <span class="slot-name">${label}</span>
         <h3>${b.title}</h3>
         <div class="spec">${p.name} · ${b.specialization}</div>

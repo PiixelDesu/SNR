@@ -37,7 +37,7 @@ document.querySelectorAll("#year").forEach(x=>x.textContent=new Date().getFullYe
    ]);
 
    const cards=(list)=>list.map(b=>`
-     <a class="matrix-build-item" href="build.html?id=${encodeURIComponent(b.id)}&source=${buildSource}">
+     <a class="matrix-build-item" href="build/?id=${encodeURIComponent(b.id)}&source=${buildSource}">
        ${GuildBuildPortal.iconForBuild(b,icons)?`<img class="spec-icon" src="${GuildBuildPortal.esc(GuildBuildPortal.iconForBuild(b,icons))}" alt="" loading="lazy">`:`<span class="spec-icon spec-icon-placeholder" aria-hidden="true"></span>`}
        <span class="build-label"><strong>${GuildBuildPortal.esc(b.name)}</strong><small>${GuildBuildPortal.esc(b.specialization||"")}</small></span>
      </a>`).join("");
