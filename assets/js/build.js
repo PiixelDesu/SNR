@@ -4,6 +4,13 @@
  const weaponNames={5:"Axe",35:"Longbow",47:"Dagger",49:"Focus",50:"Greatsword",51:"Hammer",53:"Mace",54:"Pistol",85:"Rifle",86:"Scepter",87:"Shield",89:"Staff",90:"Sword",102:"Torch",103:"Warhorn",107:"Shortbow",265:"Spear"};
  const profByCode={1:"Guardian",2:"Warrior",3:"Engineer",4:"Ranger",5:"Thief",6:"Elementalist",7:"Mesmer",8:"Necromancer",9:"Revenant"};
  const esc=GuildBuildPortal.esc;
+ // Build links carry their source so the back button returns to the right matrix.
+ const source=GuildBuildPortal.qs("source")==="roaming"?"roaming":"zerg";
+ const backHref=source==="roaming"?"./roaming/":"./zerg/";
+ const backLabel=source==="roaming"?"Roaming":"Zerg";
+ const topBack=document.querySelector("#build-back");
+ if(topBack){topBack.href=backHref;topBack.textContent=`← Back to ${backLabel}`;}
+
  async function api(path){const r=await fetch(API+path);if(!r.ok)throw new Error(`GW2 API ${r.status}`);return r.json()}
  async function optionalJson(path){try{return await GuildBuildPortal.json(path)}catch(_){return {}}}
  function decodeChat(code){
@@ -102,15 +109,13 @@
  }
  try{
    const id=GuildBuildPortal.qs("id");
-   const source=GuildBuildPortal.qs("source")==="roaming"?"roaming":"zerg";
    const buildData=source==="roaming"?"data/roaming.json":"data/builds.json";
-   const backHref=source==="roaming"?"./roaming/":"./zerg/";
    const [professions,builds,icons,sync]=await Promise.all([GuildBuildPortal.json("data/professions.json"),GuildBuildPortal.json(buildData),GuildBuildPortal.gw2Icons(),optionalJson("data/gw2-build-codes.json")]);
    const b=builds.find(x=>x.id===id);if(!b)throw new Error(`Build "${id||""}" was not found in ${buildData}.`);
    const p=professions.find(x=>x.id===b.profession);document.title=`${b.name} · GuildBuildPortal Builds`;
    const safeGw=/^https:\/\/([a-z]{2}\.)?gw2skills\.(net|com)\//i.test(b.gw2skills||"");
    const gw2=safeGw?`<a class="button primary" href="${esc(b.gw2skills)}" target="_blank" rel="noopener noreferrer">Open full build on GW2Skills ↗</a>`:`<span class="button disabled">GW2Skills link not added</span>`;
-   view.innerHTML=`<div class="build-kicker"><span class="tag">${esc(p?.name||b.profession)}</span><span class="tag">${esc(b.specialization||"")}</span><span class="tag">${esc(b.category)}</span></div><div class="build-title-row">${GuildBuildPortal.iconForBuild(b,icons)?`<img class="build-title-icon" src="${esc(GuildBuildPortal.iconForBuild(b,icons))}" alt="">`:``}<h1>${esc(b.name)}</h1></div><p class="build-summary">${esc(b.description||"")}</p><p class="build-meta">${esc(b.status||"")} ${b.updated?`· Updated ${esc(b.updated)}`:""}</p><div class="build-source-actions">${gw2}</div><div id="native-build-overview" class="native-build-overview"><div class="overview-state">Loading build overview…</div></div><div class="build-actions"><a class="button ghost" href="${backHref}">Back to matrix</a></div><div class="detail-grid"><section class="detail-card"><h3>Build information</h3><div class="detail-list"><div class="detail-row"><span>Profession</span><strong>${esc(p?.name||b.profession)}</strong></div><div class="detail-row"><span>Specialization</span><strong>${esc(b.specialization||"—")}</strong></div><div class="detail-row"><span>Role</span><strong>${esc(b.category)}</strong></div></div></section><section class="detail-card wide"><h3>GuildBuildPortal notes</h3><div class="notes">${esc(b.notes||"No GuildBuildPortal notes yet.")}</div></section></div>`;
+   view.innerHTML=`<div class="build-kicker"><span class="tag">${esc(p?.name||b.profession)}</span><span class="tag">${esc(b.specialization||"")}</span><span class="tag">${esc(b.category)}</span></div><div class="build-title-row">${GuildBuildPortal.iconForBuild(b,icons)?`<img class="build-title-icon" src="${esc(GuildBuildPortal.iconForBuild(b,icons))}" alt="">`:``}<h1>${esc(b.name)}</h1></div><p class="build-summary">${esc(b.description||"")}</p><p class="build-meta">${esc(b.status||"")} ${b.updated?`· Updated ${esc(b.updated)}`:""}</p><div class="build-source-actions">${gw2}</div><div id="native-build-overview" class="native-build-overview"><div class="overview-state">Loading build overview…</div></div><div class="build-actions"><a class="button ghost" href="${backHref}">Back to ${backLabel}</a></div><div class="detail-grid"><section class="detail-card"><h3>Build information</h3><div class="detail-list"><div class="detail-row"><span>Profession</span><strong>${esc(p?.name||b.profession)}</strong></div><div class="detail-row"><span>Specialization</span><strong>${esc(b.specialization||"—")}</strong></div><div class="detail-row"><span>Role</span><strong>${esc(b.category)}</strong></div></div></section><section class="detail-card wide"><h3>GuildBuildPortal notes</h3><div class="notes">${esc(b.notes||"No GuildBuildPortal notes yet.")}</div></section></div>`;
    renderOverview(b,sync);
- }catch(err){console.error(err);view.innerHTML=`<div class="data-error"><strong>Build could not be loaded.</strong><span>${esc(err.message)}</span><a class="button ghost" href="${backHref}">Back to matrix</a></div>`}
+ }catch(err){console.error(err);view.innerHTML=`<div class="data-error"><strong>Build could not be loaded.</strong><span>${esc(err.message)}</span><a class="button ghost" href="${backHref}">Back to ${backLabel}</a></div>`}
 })();
