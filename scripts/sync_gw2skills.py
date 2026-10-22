@@ -1,5 +1,5 @@
 
-"""Sync GW2Skills quicklinks into TEL's native build + equipment data."""
+"""Sync GW2Skills quicklinks into SNR's native build + equipment data."""
 import base64, html, json, re, subprocess, time, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -13,7 +13,7 @@ ITEM_ASSETS=ROOT/'assets'/'gw2'/'items'
 CLASS_ASSETS=ROOT/'assets'/'gw2'/'classes'
 CLASS_ICONS=ROOT/'data'/'gw2-class-icons.json'
 MECH_DEBUG=ROOT/'data'/'gw2-mechanics-debug.json'
-GW2SYNC_AGENT='TEL-Builds/3.0 (+https://github.com/PiixelDesu/tel-builds)'
+GW2SYNC_AGENT='SNR-Builds/3.0 (+https://github.com/PiixelDesu/tel-builds)'
 B64=re.compile(r'(?<![A-Za-z0-9+/_-])([A-Za-z0-9+/_-]{36,}={0,2})(?![A-Za-z0-9+/_-])')
 BRACKETED=re.compile(r'\[\s*&\s*([A-Za-z0-9+/_=-]{20,})\s*\]')
 
