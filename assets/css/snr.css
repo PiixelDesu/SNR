@@ -794,3 +794,40 @@ body[data-page="landing"] .discord-info .discord-join{margin:0}
 /* Keep the Discord panel comfortably clear of the viewport bottom. */
 body[data-page="landing"] .landing-main{padding-bottom:72px}
 @media(max-width:640px){body[data-page="landing"] .landing-main{padding-bottom:48px}}
+
+/* Homepage desktop: Discord is a right-side panel, never beneath the choices. */
+@media (min-width: 980px) {
+  body[data-page="landing"] .landing-main {
+    display:grid;grid-template-columns:minmax(0,1fr) 350px;
+    align-items:center;justify-content:center;gap:clamp(24px,4vw,72px);
+    width:min(1280px,calc(100% - 56px));margin:0 auto;
+    padding:36px 0 64px;min-height:calc(100vh - 155px);
+  }
+  body[data-page="landing"] .landing-hero {
+    max-width:none;width:100%;padding:24px 0;text-align:center;
+  }
+  body[data-page="landing"] .discord-section {
+    display:flex;flex-direction:column;align-items:stretch;gap:14px;
+    width:100%;max-width:none;margin:0;padding:18px;
+    border-radius:18px;
+  }
+  body[data-page="landing"] .discord-info {
+    min-height:0;max-width:none;padding:0;gap:8px;
+  }
+  body[data-page="landing"] .discord-info h2 {
+    font-size:23px;line-height:1.15;letter-spacing:-.02em;margin:0;
+  }
+  body[data-page="landing"] .discord-kicker {font-size:10px}
+  body[data-page="landing"] .discord-join {padding:8px 11px;font-size:11px;margin:0}
+  body[data-page="landing"] .discord-frame-shell {width:100%;padding:8px}
+  body[data-page="landing"] .discord-frame-shell iframe {height:350px}
+  body[data-page="landing"] .landing-choices {width:100%;max-width:780px;margin-left:auto;margin-right:auto}
+}
+@media (min-width: 980px) and (max-height: 750px) {
+  body[data-page="landing"] .landing-main {padding-top:20px;padding-bottom:40px}
+  body[data-page="landing"] .landing-emblem {width:100px;height:100px}
+  body[data-page="landing"] .discord-frame-shell iframe {height:280px}
+}
+@media (min-width: 790px) and (max-width: 979px) {
+  body[data-page="landing"] .landing-main {width:min(100% - 36px,850px)}
+}
