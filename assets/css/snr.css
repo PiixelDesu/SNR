@@ -831,3 +831,27 @@ body[data-page="landing"] .landing-main{padding-bottom:72px}
 @media (min-width: 790px) and (max-width: 979px) {
   body[data-page="landing"] .landing-main {width:min(100% - 36px,850px)}
 }
+
+/* Keep the main SNR landing content centered on the page itself, while
+   anchoring Discord in a separate column at the far right. */
+@media (min-width: 1250px) {
+  body[data-page="landing"] .landing-main {
+    width:calc(100% - 48px);
+    max-width:1800px;
+    grid-template-columns:minmax(0,1fr) minmax(0,780px) minmax(0,1fr);
+    gap:0;
+    margin-inline:auto;
+  }
+  body[data-page="landing"] .landing-hero {
+    grid-column:2;
+    width:100%;
+    max-width:780px;
+    justify-self:center;
+  }
+  body[data-page="landing"] .discord-section {
+    grid-column:3;
+    justify-self:end;
+    width:min(320px,calc(100% - 18px));
+    margin-left:18px;
+  }
+}
