@@ -472,19 +472,22 @@
         "npc": "Seraph Archer Brian",
         "area": "Ossencrest Climb",
         "zone": "Snowden Drifts",
-        "waypoint": ""
+        "waypoint": "Seraph Outriders' Waypoint",
+        "chatLink": "[&BLoAAAA=]"
       },
       {
         "npc": "Kastaz Strongpaw",
         "area": "Noxin Dells",
         "zone": "Diessa Plateau",
-        "waypoint": ""
+        "waypoint": "Nageling Waypoint",
+        "chatLink": "[&BN0AAAA=]"
       },
       {
         "npc": "Hune",
         "area": "The Thunderhorns",
         "zone": "Lornar's Pass",
-        "waypoint": ""
+        "waypoint": "Thunderhorns Waypoint",
+        "chatLink": "[&BOsAAAA=]"
       }
     ]
   },
