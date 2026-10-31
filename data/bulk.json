@@ -8,7 +8,8 @@
         "npc": "Disa",
         "area": "Snowslide Ravine",
         "zone": "Dredgehaunt Cliffs",
-        "waypoint": "Travelen's Waypoint"
+        "waypoint": "Travelen's Waypoint",
+        "chatLink": "[&BGQCAAA=]"
       },
       {
         "npc": "Lieutenant Pickins",
@@ -27,7 +28,8 @@
         "npc": "Milton Book",
         "area": "Cornucopian Fields",
         "zone": "Gendarran Fields",
-        "waypoint": "Cornucopian Fields Waypoint"
+        "waypoint": "Cornucopian Fields Waypoint",
+        "chatLink": "[&BOMAAAA=]"
       }
     ]
   },
@@ -53,7 +55,8 @@
         "npc": "Deputy Jenks",
         "area": "Giant's Passage",
         "zone": "Kessex Hills",
-        "waypoint": "Overlake Haven Waypoint"
+        "waypoint": "Overlake Haven Waypoint",
+        "chatLink": "[&BBMAAAA=]"
       },
       {
         "npc": "Sangdo Swiftwing",
@@ -84,13 +87,15 @@
         "npc": "Lachaidh",
         "area": "Trader's Forum",
         "zone": "Lion's Arch",
-        "waypoint": "Trader's Forum Waypoint"
+        "waypoint": "Trader's Forum Waypoint",
+        "chatLink": "[&BBAEAAA=]"
       },
       {
         "npc": "Reimar",
         "area": "Trade Commons",
         "zone": "Hoelbrak",
-        "waypoint": "Upper Balcony Waypoint"
+        "waypoint": "Upper Balcony Waypoint",
+        "chatLink": "[&BAgFAAA=]"
       },
       {
         "npc": "Bhia",
@@ -127,13 +132,15 @@
         "npc": "Lachaidh",
         "area": "Trader's Forum",
         "zone": "Lion's Arch",
-        "waypoint": "Trader's Forum Waypoint"
+        "waypoint": "Trader's Forum Waypoint",
+        "chatLink": "[&BBAEAAA=]"
       },
       {
         "npc": "Reimar",
         "area": "Trade Commons",
         "zone": "Hoelbrak",
-        "waypoint": "Upper Balcony Waypoint"
+        "waypoint": "Upper Balcony Waypoint",
+        "chatLink": "[&BAgFAAA=]"
       },
       {
         "npc": "Bhia",
@@ -170,13 +177,15 @@
         "npc": "Deputy Jenks",
         "area": "Giant's Passage",
         "zone": "Kessex Hills",
-        "waypoint": "Overlake Haven Waypoint"
+        "waypoint": "Overlake Haven Waypoint",
+        "chatLink": "[&BBMAAAA=]"
       },
       {
         "npc": "Field Medic Leius",
         "area": "Guardian's Pass",
         "zone": "Gendarran Fields",
-        "waypoint": "Stoneguard Gate Waypoint"
+        "waypoint": "Stoneguard Gate Waypoint",
+        "chatLink": "[&BOAAAAA=]"
       },
       {
         "npc": "Vice Chief Hernandez",
@@ -201,13 +210,15 @@
         "npc": "Lachaidh",
         "area": "Trader's Forum",
         "zone": "Lion's Arch",
-        "waypoint": "Trader's Forum Waypoint"
+        "waypoint": "Trader's Forum Waypoint",
+        "chatLink": "[&BBAEAAA=]"
       },
       {
         "npc": "Reimar",
         "area": "Trade Commons",
         "zone": "Hoelbrak",
-        "waypoint": "Upper Balcony Waypoint"
+        "waypoint": "Upper Balcony Waypoint",
+        "chatLink": "[&BAgFAAA=]"
       },
       {
         "npc": "Bhia",
@@ -244,7 +255,8 @@
         "npc": "Milton Book",
         "area": "Cornucopian Fields",
         "zone": "Gendarran Fields",
-        "waypoint": "Cornucopian Fields Waypoint"
+        "waypoint": "Cornucopian Fields Waypoint",
+        "chatLink": "[&BOMAAAA=]"
       }
     ]
   },
@@ -257,13 +269,15 @@
         "npc": "Lachaidh",
         "area": "Trader's Forum",
         "zone": "Lion's Arch",
-        "waypoint": "Trader's Forum Waypoint"
+        "waypoint": "Trader's Forum Waypoint",
+        "chatLink": "[&BBAEAAA=]"
       },
       {
         "npc": "Reimar",
         "area": "Trade Commons",
         "zone": "Hoelbrak",
-        "waypoint": "Upper Balcony Waypoint"
+        "waypoint": "Upper Balcony Waypoint",
+        "chatLink": "[&BAgFAAA=]"
       },
       {
         "npc": "Bhia",
@@ -300,7 +314,8 @@
         "npc": "Disa",
         "area": "Snowslide Ravine",
         "zone": "Dredgehaunt Cliffs",
-        "waypoint": "Travelen's Waypoint"
+        "waypoint": "Travelen's Waypoint",
+        "chatLink": "[&BGQCAAA=]"
       },
       {
         "npc": "Lieutenant Summers",
@@ -351,7 +366,8 @@
         "npc": "Milton Book",
         "area": "Cornucopian Fields",
         "zone": "Gendarran Fields",
-        "waypoint": "Cornucopian Fields Waypoint"
+        "waypoint": "Cornucopian Fields Waypoint",
+        "chatLink": "[&BOMAAAA=]"
       }
     ]
   },
@@ -377,13 +393,15 @@
         "npc": "Lachaidh",
         "area": "Trader's Forum",
         "zone": "Lion's Arch",
-        "waypoint": "Trader's Forum Waypoint"
+        "waypoint": "Trader's Forum Waypoint",
+        "chatLink": "[&BBAEAAA=]"
       },
       {
         "npc": "Reimar",
         "area": "Trade Commons",
         "zone": "Hoelbrak",
-        "waypoint": "Upper Balcony Waypoint"
+        "waypoint": "Upper Balcony Waypoint",
+        "chatLink": "[&BAgFAAA=]"
       },
       {
         "npc": "Bhia",
@@ -420,7 +438,8 @@
         "npc": "Milton Book",
         "area": "Cornucopian Fields",
         "zone": "Gendarran Fields",
-        "waypoint": "Cornucopian Fields Waypoint"
+        "waypoint": "Cornucopian Fields Waypoint",
+        "chatLink": "[&BOMAAAA=]"
       }
     ]
   },
@@ -489,7 +508,8 @@
         "npc": "Milton Book",
         "area": "Cornucopian Fields",
         "zone": "Gendarran Fields",
-        "waypoint": "Cornucopian Fields Waypoint"
+        "waypoint": "Cornucopian Fields Waypoint",
+        "chatLink": "[&BOMAAAA=]"
       }
     ]
   },
@@ -528,13 +548,15 @@
         "npc": "Deputy Jenks",
         "area": "Giant's Passage",
         "zone": "Kessex Hills",
-        "waypoint": "Overlake Haven Waypoint"
+        "waypoint": "Overlake Haven Waypoint",
+        "chatLink": "[&BBMAAAA=]"
       },
       {
         "npc": "Milton Book",
         "area": "Cornucopian Fields",
         "zone": "Gendarran Fields",
-        "waypoint": "Cornucopian Fields Waypoint"
+        "waypoint": "Cornucopian Fields Waypoint",
+        "chatLink": "[&BOMAAAA=]"
       }
     ]
   },
@@ -586,13 +608,15 @@
         "npc": "Lachaidh",
         "area": "Trader's Forum",
         "zone": "Lion's Arch",
-        "waypoint": "Trader's Forum Waypoint"
+        "waypoint": "Trader's Forum Waypoint",
+        "chatLink": "[&BBAEAAA=]"
       },
       {
         "npc": "Reimar",
         "area": "Trade Commons",
         "zone": "Hoelbrak",
-        "waypoint": "Upper Balcony Waypoint"
+        "waypoint": "Upper Balcony Waypoint",
+        "chatLink": "[&BAgFAAA=]"
       },
       {
         "npc": "Bhia",
@@ -642,13 +666,15 @@
         "npc": "Lachaidh",
         "area": "Trader's Forum",
         "zone": "Lion's Arch",
-        "waypoint": "Trader's Forum Waypoint"
+        "waypoint": "Trader's Forum Waypoint",
+        "chatLink": "[&BBAEAAA=]"
       },
       {
         "npc": "Reimar",
         "area": "Trade Commons",
         "zone": "Hoelbrak",
-        "waypoint": "Upper Balcony Waypoint"
+        "waypoint": "Upper Balcony Waypoint",
+        "chatLink": "[&BAgFAAA=]"
       },
       {
         "npc": "Bhia",
@@ -691,13 +717,15 @@
         "npc": "Lachaidh",
         "area": "Trader's Forum",
         "zone": "Lion's Arch",
-        "waypoint": "Trader's Forum Waypoint"
+        "waypoint": "Trader's Forum Waypoint",
+        "chatLink": "[&BBAEAAA=]"
       },
       {
         "npc": "Reimar",
         "area": "Trade Commons",
         "zone": "Hoelbrak",
-        "waypoint": "Upper Balcony Waypoint"
+        "waypoint": "Upper Balcony Waypoint",
+        "chatLink": "[&BAgFAAA=]"
       },
       {
         "npc": "Bhia",
@@ -734,13 +762,15 @@
         "npc": "Lachaidh",
         "area": "Trader's Forum",
         "zone": "Lion's Arch",
-        "waypoint": "Trader's Forum Waypoint"
+        "waypoint": "Trader's Forum Waypoint",
+        "chatLink": "[&BBAEAAA=]"
       },
       {
         "npc": "Reimar",
         "area": "Trade Commons",
         "zone": "Hoelbrak",
-        "waypoint": "Upper Balcony Waypoint"
+        "waypoint": "Upper Balcony Waypoint",
+        "chatLink": "[&BAgFAAA=]"
       },
       {
         "npc": "Bhia",
