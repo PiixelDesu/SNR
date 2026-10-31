@@ -523,10 +523,11 @@
     "wiki": "https://wiki.guildwars2.com/wiki/Limes_in_Bulk",
     "sources": [
       {
-        "npc": "Shelp",
-        "area": "Degun Shun",
-        "zone": "Blazeridge Steppes",
-        "waypoint": ""
+        "npc": "Archaeologist / Researcher",
+        "area": "House zu Heltzer",
+        "zone": "Echovald Wilds",
+        "waypoint": "Waypoint zu Heltzer",
+        "chatLink": "[&BMoMAAA=]"
       }
     ]
   },
