@@ -1,0 +1,771 @@
+[
+  {
+    "name": "Almonds in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Almonds_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Almonds_in_Bulk",
+    "sources": [
+      {
+        "npc": "Disa",
+        "area": "Snowslide Ravine",
+        "zone": "Dredgehaunt Cliffs",
+        "waypoint": "Travelen's Waypoint"
+      },
+      {
+        "npc": "Lieutenant Pickins",
+        "area": "Greystone Rise",
+        "zone": "Harathi Hinterlands",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Apples in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Apples_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Apples_in_Bulk",
+    "sources": [
+      {
+        "npc": "Milton Book",
+        "area": "Cornucopian Fields",
+        "zone": "Gendarran Fields",
+        "waypoint": "Cornucopian Fields Waypoint"
+      }
+    ]
+  },
+  {
+    "name": "Avocados in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Avocados_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Avocados_in_Bulk",
+    "sources": [
+      {
+        "npc": "Fallen Angel Makayla",
+        "area": "Stronghold of Ebonhawke",
+        "zone": "Fields of Ruin",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Bananas in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Bananas_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Bananas_in_Bulk",
+    "sources": [
+      {
+        "npc": "Deputy Jenks",
+        "area": "Giant's Passage",
+        "zone": "Kessex Hills",
+        "waypoint": "Overlake Haven Waypoint"
+      },
+      {
+        "npc": "Sangdo Swiftwing",
+        "area": "Cereboth Canyon",
+        "zone": "Kessex Hills",
+        "waypoint": ""
+      },
+      {
+        "npc": "Seraph Soldier Goran",
+        "area": "The Wendon Steps",
+        "zone": "Brisban Wildlands",
+        "waypoint": ""
+      },
+      {
+        "npc": "Security Captain Vejj",
+        "area": "Almuten Estates",
+        "zone": "Gendarran Fields",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Basil Leaves in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Basil_Leaves_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Basil_Leaves_in_Bulk",
+    "sources": [
+      {
+        "npc": "Lachaidh",
+        "area": "Trader's Forum",
+        "zone": "Lion's Arch",
+        "waypoint": "Trader's Forum Waypoint"
+      },
+      {
+        "npc": "Reimar",
+        "area": "Trade Commons",
+        "zone": "Hoelbrak",
+        "waypoint": "Upper Balcony Waypoint"
+      },
+      {
+        "npc": "Bhia",
+        "area": "Maker's Terrace",
+        "zone": "The Grove",
+        "waypoint": ""
+      },
+      {
+        "npc": "Melinda",
+        "area": "Township of Claypool",
+        "zone": "Queensdale",
+        "waypoint": ""
+      },
+      {
+        "npc": "Zenn",
+        "area": "Synergetics Union",
+        "zone": "Rata Sum",
+        "waypoint": ""
+      },
+      {
+        "npc": "Gurges Burnpaw",
+        "area": "Canton Factorium",
+        "zone": "Black Citadel",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Bell Peppers in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Bell_Peppers_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Bell_Peppers_in_Bulk",
+    "sources": [
+      {
+        "npc": "Lachaidh",
+        "area": "Trader's Forum",
+        "zone": "Lion's Arch",
+        "waypoint": "Trader's Forum Waypoint"
+      },
+      {
+        "npc": "Reimar",
+        "area": "Trade Commons",
+        "zone": "Hoelbrak",
+        "waypoint": "Upper Balcony Waypoint"
+      },
+      {
+        "npc": "Bhia",
+        "area": "Maker's Terrace",
+        "zone": "The Grove",
+        "waypoint": ""
+      },
+      {
+        "npc": "Melinda",
+        "area": "Township of Claypool",
+        "zone": "Queensdale",
+        "waypoint": ""
+      },
+      {
+        "npc": "Zenn",
+        "area": "Synergetics Union",
+        "zone": "Rata Sum",
+        "waypoint": ""
+      },
+      {
+        "npc": "Gurges Burnpaw",
+        "area": "Canton Factorium",
+        "zone": "Black Citadel",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Black Beans in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Black_Beans_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Black_Beans_in_Bulk",
+    "sources": [
+      {
+        "npc": "Deputy Jenks",
+        "area": "Giant's Passage",
+        "zone": "Kessex Hills",
+        "waypoint": "Overlake Haven Waypoint"
+      },
+      {
+        "npc": "Field Medic Leius",
+        "area": "Guardian's Pass",
+        "zone": "Gendarran Fields",
+        "waypoint": "Stoneguard Gate Waypoint"
+      },
+      {
+        "npc": "Vice Chief Hernandez",
+        "area": "Osprey Pillars",
+        "zone": "Ember Bay",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Buttermilk in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Buttermilk_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Buttermilk_in_Bulk",
+    "sources": [
+      {
+        "npc": "Veska Bladesinger",
+        "area": "Wodron Glens",
+        "zone": "Diessa Plateau",
+        "waypoint": ""
+      },
+      {
+        "npc": "Lachaidh",
+        "area": "Trader's Forum",
+        "zone": "Lion's Arch",
+        "waypoint": "Trader's Forum Waypoint"
+      },
+      {
+        "npc": "Reimar",
+        "area": "Trade Commons",
+        "zone": "Hoelbrak",
+        "waypoint": "Upper Balcony Waypoint"
+      },
+      {
+        "npc": "Bhia",
+        "area": "Maker's Terrace",
+        "zone": "The Grove",
+        "waypoint": ""
+      },
+      {
+        "npc": "Melinda",
+        "area": "Township of Claypool",
+        "zone": "Queensdale",
+        "waypoint": ""
+      },
+      {
+        "npc": "Zenn",
+        "area": "Synergetics Union",
+        "zone": "Rata Sum",
+        "waypoint": ""
+      },
+      {
+        "npc": "Gurges Burnpaw",
+        "area": "Canton Factorium",
+        "zone": "Black Citadel",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Celery Stalks in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Celery_Stalks_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Celery_Stalks_in_Bulk",
+    "sources": [
+      {
+        "npc": "Milton Book",
+        "area": "Cornucopian Fields",
+        "zone": "Gendarran Fields",
+        "waypoint": "Cornucopian Fields Waypoint"
+      }
+    ]
+  },
+  {
+    "name": "Cheese Wedges in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Cheese_Wedges_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Cheese_Wedges_in_Bulk",
+    "sources": [
+      {
+        "npc": "Lachaidh",
+        "area": "Trader's Forum",
+        "zone": "Lion's Arch",
+        "waypoint": "Trader's Forum Waypoint"
+      },
+      {
+        "npc": "Reimar",
+        "area": "Trade Commons",
+        "zone": "Hoelbrak",
+        "waypoint": "Upper Balcony Waypoint"
+      },
+      {
+        "npc": "Bhia",
+        "area": "Maker's Terrace",
+        "zone": "The Grove",
+        "waypoint": ""
+      },
+      {
+        "npc": "Melinda",
+        "area": "Township of Claypool",
+        "zone": "Queensdale",
+        "waypoint": ""
+      },
+      {
+        "npc": "Zenn",
+        "area": "Synergetics Union",
+        "zone": "Rata Sum",
+        "waypoint": ""
+      },
+      {
+        "npc": "Gurges Burnpaw",
+        "area": "Canton Factorium",
+        "zone": "Black Citadel",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Cherries in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Cherries_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Cherries_in_Bulk",
+    "sources": [
+      {
+        "npc": "Disa",
+        "area": "Snowslide Ravine",
+        "zone": "Dredgehaunt Cliffs",
+        "waypoint": "Travelen's Waypoint"
+      },
+      {
+        "npc": "Lieutenant Summers",
+        "area": "Nightguard Beach",
+        "zone": "Harathi Hinterlands",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Chickpeas in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Chickpeas_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Chickpeas_in_Bulk",
+    "sources": [
+      {
+        "npc": "Naknar",
+        "area": "Ebbing Heart Run",
+        "zone": "Iron Marches",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Coconuts in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Coconuts_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Coconuts_in_Bulk",
+    "sources": [
+      {
+        "npc": "Lionscout Tunnira",
+        "area": "Archen Foreland",
+        "zone": "Bloodtide Coast",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Cumin in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Cumin_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Cumin_in_Bulk",
+    "sources": [
+      {
+        "npc": "Sagum Relicseeker",
+        "area": "The Toppled Wall",
+        "zone": "Plains of Ashford",
+        "waypoint": ""
+      },
+      {
+        "npc": "Milton Book",
+        "area": "Cornucopian Fields",
+        "zone": "Gendarran Fields",
+        "waypoint": "Cornucopian Fields Waypoint"
+      }
+    ]
+  },
+  {
+    "name": "Eggplants in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Eggplants_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Eggplants_in_Bulk",
+    "sources": [
+      {
+        "npc": "Environmental Activist Jenrys",
+        "area": "Benthic Kelp Beds",
+        "zone": "Mount Maelstrom",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Ginger Root in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Ginger_Root_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Ginger_Root_in_Bulk",
+    "sources": [
+      {
+        "npc": "Lachaidh",
+        "area": "Trader's Forum",
+        "zone": "Lion's Arch",
+        "waypoint": "Trader's Forum Waypoint"
+      },
+      {
+        "npc": "Reimar",
+        "area": "Trade Commons",
+        "zone": "Hoelbrak",
+        "waypoint": "Upper Balcony Waypoint"
+      },
+      {
+        "npc": "Bhia",
+        "area": "Maker's Terrace",
+        "zone": "The Grove",
+        "waypoint": ""
+      },
+      {
+        "npc": "Melinda",
+        "area": "Township of Claypool",
+        "zone": "Queensdale",
+        "waypoint": ""
+      },
+      {
+        "npc": "Zenn",
+        "area": "Synergetics Union",
+        "zone": "Rata Sum",
+        "waypoint": ""
+      },
+      {
+        "npc": "Gurges Burnpaw",
+        "area": "Canton Factorium",
+        "zone": "Black Citadel",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Green Beans in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Green_Beans_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Green_Beans_in_Bulk",
+    "sources": [
+      {
+        "npc": "Milton Book",
+        "area": "Cornucopian Fields",
+        "zone": "Gendarran Fields",
+        "waypoint": "Cornucopian Fields Waypoint"
+      }
+    ]
+  },
+  {
+    "name": "Horseradish Root in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Horseradish_Root_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Horseradish_Root_in_Bulk",
+    "sources": [
+      {
+        "npc": "Laudren",
+        "area": "Thundertroll Swamp",
+        "zone": "Sparkfly Fen",
+        "waypoint": ""
+      },
+      {
+        "npc": "Wupwup Chief",
+        "area": "Apostate Wastes",
+        "zone": "Fireheart Rise",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Kidney Beans in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Kidney_Beans_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Kidney_Beans_in_Bulk",
+    "sources": [
+      {
+        "npc": "Seraph Archer Brian",
+        "area": "Ossencrest Climb",
+        "zone": "Snowden Drifts",
+        "waypoint": ""
+      },
+      {
+        "npc": "Kastaz Strongpaw",
+        "area": "Noxin Dells",
+        "zone": "Diessa Plateau",
+        "waypoint": ""
+      },
+      {
+        "npc": "Hune",
+        "area": "The Thunderhorns",
+        "zone": "Lornar's Pass",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Lemons in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Lemons_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Lemons_in_Bulk",
+    "sources": [
+      {
+        "npc": "Yoal",
+        "area": "Quetzal Bay",
+        "zone": "Caledon Forest",
+        "waypoint": ""
+      },
+      {
+        "npc": "Researcher Hrappa",
+        "area": "Voloxian Passage",
+        "zone": "Metrica Province",
+        "waypoint": ""
+      },
+      {
+        "npc": "Milton Book",
+        "area": "Cornucopian Fields",
+        "zone": "Gendarran Fields",
+        "waypoint": "Cornucopian Fields Waypoint"
+      }
+    ]
+  },
+  {
+    "name": "Limes in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Limes_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Limes_in_Bulk",
+    "sources": [
+      {
+        "npc": "Shelp",
+        "area": "Degun Shun",
+        "zone": "Blazeridge Steppes",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Mangos in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Mangos_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Mangos_in_Bulk",
+    "sources": [
+      {
+        "npc": "Agent Crandle",
+        "area": "Fort Trinity",
+        "zone": "Straits of Devastation",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Nutmeg Seeds in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Nutmeg_Seeds_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Nutmeg_Seeds_in_Bulk",
+    "sources": [
+      {
+        "npc": "Deputy Jenks",
+        "area": "Giant's Passage",
+        "zone": "Kessex Hills",
+        "waypoint": "Overlake Haven Waypoint"
+      },
+      {
+        "npc": "Milton Book",
+        "area": "Cornucopian Fields",
+        "zone": "Gendarran Fields",
+        "waypoint": "Cornucopian Fields Waypoint"
+      }
+    ]
+  },
+  {
+    "name": "Peaches in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Peaches_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Peaches_in_Bulk",
+    "sources": [
+      {
+        "npc": "Nrocroc Chief",
+        "area": "Apostate Wastes",
+        "zone": "Fireheart Rise",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Pears in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Pears_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Pears_in_Bulk",
+    "sources": [
+      {
+        "npc": "Braxa Scalehunter",
+        "area": "Champion's Shield",
+        "zone": "Iron Marches",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Pinenuts in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Pinenuts_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Pinenuts_in_Bulk",
+    "sources": [
+      {
+        "npc": "Scholar Tholin",
+        "area": "Krongar Pass",
+        "zone": "Timberline Falls",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Rice in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Rice_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Rice_in_Bulk",
+    "sources": [
+      {
+        "npc": "Lachaidh",
+        "area": "Trader's Forum",
+        "zone": "Lion's Arch",
+        "waypoint": "Trader's Forum Waypoint"
+      },
+      {
+        "npc": "Reimar",
+        "area": "Trade Commons",
+        "zone": "Hoelbrak",
+        "waypoint": "Upper Balcony Waypoint"
+      },
+      {
+        "npc": "Bhia",
+        "area": "Maker's Terrace",
+        "zone": "The Grove",
+        "waypoint": ""
+      },
+      {
+        "npc": "Melinda",
+        "area": "Township of Claypool",
+        "zone": "Queensdale",
+        "waypoint": ""
+      },
+      {
+        "npc": "Zenn",
+        "area": "Synergetics Union",
+        "zone": "Rata Sum",
+        "waypoint": ""
+      },
+      {
+        "npc": "Gurges Burnpaw",
+        "area": "Canton Factorium",
+        "zone": "Black Citadel",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Shallots in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Shallots_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Shallots_in_Bulk",
+    "sources": [
+      {
+        "npc": "Ichtaca",
+        "area": "Hunting Banks",
+        "zone": "Timberline Falls",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Sour Cream in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Sour_Cream_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Sour_Cream_in_Bulk",
+    "sources": [
+      {
+        "npc": "Lachaidh",
+        "area": "Trader's Forum",
+        "zone": "Lion's Arch",
+        "waypoint": "Trader's Forum Waypoint"
+      },
+      {
+        "npc": "Reimar",
+        "area": "Trade Commons",
+        "zone": "Hoelbrak",
+        "waypoint": "Upper Balcony Waypoint"
+      },
+      {
+        "npc": "Bhia",
+        "area": "Maker's Terrace",
+        "zone": "The Grove",
+        "waypoint": ""
+      },
+      {
+        "npc": "Melinda",
+        "area": "Township of Claypool",
+        "zone": "Queensdale",
+        "waypoint": ""
+      },
+      {
+        "npc": "Zenn",
+        "area": "Synergetics Union",
+        "zone": "Rata Sum",
+        "waypoint": ""
+      },
+      {
+        "npc": "Gurges Burnpaw",
+        "area": "Canton Factorium",
+        "zone": "Black Citadel",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Tomatoes in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Tomatoes_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Tomatoes_in_Bulk",
+    "sources": [
+      {
+        "npc": "Mei Hawkslayer",
+        "area": "Loreclaw Expanse",
+        "zone": "Plains of Ashford",
+        "waypoint": ""
+      },
+      {
+        "npc": "Lachaidh",
+        "area": "Trader's Forum",
+        "zone": "Lion's Arch",
+        "waypoint": "Trader's Forum Waypoint"
+      },
+      {
+        "npc": "Reimar",
+        "area": "Trade Commons",
+        "zone": "Hoelbrak",
+        "waypoint": "Upper Balcony Waypoint"
+      },
+      {
+        "npc": "Bhia",
+        "area": "Maker's Terrace",
+        "zone": "The Grove",
+        "waypoint": ""
+      },
+      {
+        "npc": "Melinda",
+        "area": "Township of Claypool",
+        "zone": "Queensdale",
+        "waypoint": ""
+      },
+      {
+        "npc": "Zenn",
+        "area": "Synergetics Union",
+        "zone": "Rata Sum",
+        "waypoint": ""
+      },
+      {
+        "npc": "Gurges Burnpaw",
+        "area": "Canton Factorium",
+        "zone": "Black Citadel",
+        "waypoint": ""
+      }
+    ]
+  },
+  {
+    "name": "Yeast in Bulk",
+    "icon": "https://wiki.guildwars2.com/wiki/Special:Redirect/file/Yeast_in_Bulk.png",
+    "wiki": "https://wiki.guildwars2.com/wiki/Yeast_in_Bulk",
+    "sources": [
+      {
+        "npc": "Lachaidh",
+        "area": "Trader's Forum",
+        "zone": "Lion's Arch",
+        "waypoint": "Trader's Forum Waypoint"
+      },
+      {
+        "npc": "Reimar",
+        "area": "Trade Commons",
+        "zone": "Hoelbrak",
+        "waypoint": "Upper Balcony Waypoint"
+      },
+      {
+        "npc": "Bhia",
+        "area": "Maker's Terrace",
+        "zone": "The Grove",
+        "waypoint": ""
+      },
+      {
+        "npc": "Melinda",
+        "area": "Township of Claypool",
+        "zone": "Queensdale",
+        "waypoint": ""
+      },
+      {
+        "npc": "Zenn",
+        "area": "Synergetics Union",
+        "zone": "Rata Sum",
+        "waypoint": ""
+      },
+      {
+        "npc": "Gurges Burnpaw",
+        "area": "Canton Factorium",
+        "zone": "Black Citadel",
+        "waypoint": ""
+      }
+    ]
+  }
+]
