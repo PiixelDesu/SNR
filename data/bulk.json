@@ -658,7 +658,8 @@
         "npc": "Ichtaca",
         "area": "Hunting Banks",
         "zone": "Timberline Falls",
-        "waypoint": ""
+        "waypoint": "Eztlitl Grounds Waypoint",
+        "chatLink": "[&BEoCAAA=]"
       }
     ]
   },
