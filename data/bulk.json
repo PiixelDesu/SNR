@@ -334,7 +334,8 @@
         "npc": "Naknar",
         "area": "Ebbing Heart Run",
         "zone": "Iron Marches",
-        "waypoint": ""
+        "waypoint": "Grostogg's Kraal Waypoint",
+        "chatLink": "[&BO8BAAA=]"
       }
     ]
   },
