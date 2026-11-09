@@ -1,1 +1,14 @@
-[]
+[
+    {
+    "id": "dieirdra-double-longbow",
+    "profession": "ranger",
+    "category": "guildies",
+    "name": "Dieirdra Double Longbow",
+    "specialization": "Soulbeast",
+    "description": "A build that focuses on maximizing damage output with the double longbow, utilizing the Soulbeast specialization for enhanced mobility and survivability.",
+    "gw2skills": "https://gw2skills.net/editor/?POgAMNllyWZZsNmLO2L6xvas3AB-DWIYRU9XINFGRkAVUB2euIAB83i+zVAA-w",
+    "status": "approved",
+    "updated": "2026-11-09",
+    "notes": "Since a certain someone doesnt have all expacs... ONCE YOU HAVE JANTHIR WILDS USE: Relic of the Living City -> Until then use Relic of the Thief."
+  }
+]
