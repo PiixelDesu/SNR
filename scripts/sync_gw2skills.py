@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BUILDS=ROOT/'data'/'builds.json'
 ROAMING=ROOT/'data'/'roaming.json'
+GUILDIES=ROOT/'data'/'guildies.json'
 OUT=ROOT/'data'/'gw2-build-codes.json'
 ITEM_CACHE=ROOT/'data'/'gw2-item-cache.json'
 ITEM_ASSETS=ROOT/'assets'/'gw2'/'items'
@@ -497,6 +498,8 @@ def main():
     builds=json.loads(BUILDS.read_text(encoding='utf-8'))
     if ROAMING.exists():
         builds += json.loads(ROAMING.read_text(encoding='utf-8'))
+    if GUILDIES.exists():
+        builds += json.loads(GUILDIES.read_text(encoding='utf-8'))
     try: old=json.loads(OUT.read_text(encoding='utf-8'))
     except Exception: old={}
     result={}; failures=[]; dbcache={}; mech_debug={}

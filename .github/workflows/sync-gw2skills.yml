@@ -5,6 +5,7 @@ on:
     paths:
       - 'data/builds.json'
       - 'data/roaming.json'
+      - 'data/guildies.json'
       - 'scripts/sync_gw2skills.py'
       - '.github/workflows/sync-gw2skills.yml'
 permissions:
