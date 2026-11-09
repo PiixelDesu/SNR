@@ -24,10 +24,11 @@ const GuildBuildPortal={
 document.querySelectorAll("#year").forEach(x=>x.textContent=new Date().getFullYear());
 
 (async function(){
- if(!["zerg","roaming"].includes(document.body.dataset.page))return;
- const isRoaming=document.body.dataset.page==="roaming";
- const buildData=isRoaming?"data/roaming.json":"data/builds.json";
- const buildSource=isRoaming?"roaming":"zerg";
+ if(!["zerg","roaming","guildies"].includes(document.body.dataset.page))return;
+ const isRoaming=["roaming","guildies"].includes(document.body.dataset.page);
+ const isGuildies=document.body.dataset.page==="guildies";
+ const buildData=isGuildies?"data/guildies.json":isRoaming?"data/roaming.json":"data/builds.json";
+ const buildSource=isGuildies?"guildies":isRoaming?"roaming":"zerg";
  const matrix=document.querySelector("#build-matrix");
  try{
    const [professions,builds,icons]=await Promise.all([
@@ -65,7 +66,7 @@ document.querySelectorAll("#year").forEach(x=>x.textContent=new Date().getFullYe
 
    matrix.innerHTML=isRoaming?`
      <div class="matrix-head profession-col">Profession</div>
-     <div class="matrix-head">Roaming Builds</div>
+     <div class="matrix-head">${isGuildies?"Guildies Builds":"Roaming Builds"}</div>
      ${professions.map(p=>`
        <div class="matrix-profession" style="--profession:${p.color}">
          <div class="profession-glyph">${icons.professions[p.id]?`<img src="${GuildBuildPortal.esc(icons.professions[p.id])}" alt="" loading="lazy">`:GuildBuildPortal.esc(p.glyph)}</div><strong>${GuildBuildPortal.esc(p.name)}</strong>

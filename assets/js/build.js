@@ -5,9 +5,10 @@
  const profByCode={1:"Guardian",2:"Warrior",3:"Engineer",4:"Ranger",5:"Thief",6:"Elementalist",7:"Mesmer",8:"Necromancer",9:"Revenant"};
  const esc=GuildBuildPortal.esc;
  // Build links carry their source so the back button returns to the right matrix.
- const source=GuildBuildPortal.qs("source")==="roaming"?"roaming":"zerg";
- const backHref=source==="roaming"?"./roaming/":"./zerg/";
- const backLabel=source==="roaming"?"Roaming":"Zerg";
+ const requestedSource=GuildBuildPortal.qs("source");
+ const source=["zerg","roaming","guildies"].includes(requestedSource)?requestedSource:"zerg";
+ const backHref=`./${source}/`;
+ const backLabel=source==="guildies"?"Guildies":source==="roaming"?"Roaming":"Zerg";
  const topBack=document.querySelector("#build-back");
  if(topBack){topBack.href=backHref;topBack.textContent=`← Back to ${backLabel}`;}
 
@@ -109,7 +110,7 @@
  }
  try{
    const id=GuildBuildPortal.qs("id");
-   const buildData=source==="roaming"?"data/roaming.json":"data/builds.json";
+   const buildData=source==="guildies"?"data/guildies.json":source==="roaming"?"data/roaming.json":"data/builds.json";
    const [professions,builds,icons,sync]=await Promise.all([GuildBuildPortal.json("data/professions.json"),GuildBuildPortal.json(buildData),GuildBuildPortal.gw2Icons(),optionalJson("data/gw2-build-codes.json")]);
    const b=builds.find(x=>x.id===id);if(!b)throw new Error(`Build "${id||""}" was not found in ${buildData}.`);
    const p=professions.find(x=>x.id===b.profession);document.title=`${b.name} · GuildBuildPortal Builds`;
