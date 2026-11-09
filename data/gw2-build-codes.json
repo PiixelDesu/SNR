@@ -18100,5 +18100,349 @@
         "type": "Relic"
       }
     }
+  },
+  "dieirdra-double-longbow": {
+    "chat_code": "[&DQQIOx46SB8UGwAAGRsAAJoAAACsAQAADxsAAEJEAAAAAAAAAAAAAAAAAAA=]",
+    "source": "https://gw2skills.net/editor/?POgAMNllyWZZsNmLO2L6xvas3AB-DWIYRU9XINFGRkAVUB2euIAB83i+zVAA-w",
+    "equipment": {
+      "armor": [
+        {
+          "slot": "Head",
+          "stat": "Berserker",
+          "rune": {
+            "name": "Superior Rune of the Scholar",
+            "id": 24836,
+            "icon": "assets/gw2/items/24836.png",
+            "type": "UpgradeComponent"
+          },
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        },
+        {
+          "slot": "Shoulders",
+          "stat": "Berserker",
+          "rune": {
+            "name": "Superior Rune of the Scholar",
+            "id": 24836,
+            "icon": "assets/gw2/items/24836.png",
+            "type": "UpgradeComponent"
+          },
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        },
+        {
+          "slot": "Chest",
+          "stat": "Berserker",
+          "rune": {
+            "name": "Superior Rune of the Scholar",
+            "id": 24836,
+            "icon": "assets/gw2/items/24836.png",
+            "type": "UpgradeComponent"
+          },
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        },
+        {
+          "slot": "Hands",
+          "stat": "Berserker",
+          "rune": {
+            "name": "Superior Rune of the Scholar",
+            "id": 24836,
+            "icon": "assets/gw2/items/24836.png",
+            "type": "UpgradeComponent"
+          },
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        },
+        {
+          "slot": "Legs",
+          "stat": "Berserker",
+          "rune": {
+            "name": "Superior Rune of the Scholar",
+            "id": 24836,
+            "icon": "assets/gw2/items/24836.png",
+            "type": "UpgradeComponent"
+          },
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        },
+        {
+          "slot": "Feet",
+          "stat": "Berserker",
+          "rune": {
+            "name": "Superior Rune of the Scholar",
+            "id": 24836,
+            "icon": "assets/gw2/items/24836.png",
+            "type": "UpgradeComponent"
+          },
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "slot": "Weapon set 1 · Main hand",
+          "stat": "Berserker",
+          "sigils": [
+            {
+              "name": "Superior Sigil of Force",
+              "id": 24615,
+              "icon": "assets/gw2/items/24615.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Superior Sigil of Accuracy",
+              "id": 24618,
+              "icon": "assets/gw2/items/24618.png",
+              "type": "UpgradeComponent"
+            }
+          ],
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ],
+          "weaponType": "Longbow"
+        },
+        {
+          "slot": "Weapon set 2 · Main hand",
+          "stat": "Berserker",
+          "sigils": [
+            {
+              "name": "Superior Sigil of Force",
+              "id": 24615,
+              "icon": "assets/gw2/items/24615.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Superior Sigil of Bloodlust",
+              "id": 24575,
+              "icon": "assets/gw2/items/24575.png",
+              "type": "UpgradeComponent"
+            }
+          ],
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ],
+          "weaponType": "Longbow"
+        },
+        {
+          "slot": "Aquatic 1",
+          "stat": "Berserker",
+          "sigils": [
+            {
+              "name": "Superior Sigil of Bloodlust",
+              "id": 24575,
+              "icon": "assets/gw2/items/24575.png",
+              "type": "UpgradeComponent"
+            }
+          ],
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ],
+          "weaponType": "Harpoon Gun"
+        },
+        {
+          "slot": "Aquatic 2",
+          "stat": "Berserker",
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ],
+          "weaponType": "Spear"
+        }
+      ],
+      "trinkets": [
+        {
+          "slot": "Amulet",
+          "stat": "Berserker"
+        },
+        {
+          "slot": "Ring 1",
+          "stat": "Berserker",
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        },
+        {
+          "slot": "Ring 2",
+          "stat": "Berserker",
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        },
+        {
+          "slot": "Accessory 1",
+          "stat": "Berserker",
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        },
+        {
+          "slot": "Accessory 2",
+          "stat": "Berserker",
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        },
+        {
+          "slot": "Back",
+          "stat": "Berserker",
+          "infusions": [
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            },
+            {
+              "name": "Mighty WvW Infusion",
+              "id": 43254,
+              "icon": "assets/gw2/items/43254.png",
+              "type": "UpgradeComponent"
+            }
+          ]
+        }
+      ],
+      "food": {
+        "name": "Peppercorn-Crusted Sous-Vide Steak",
+        "id": 91734,
+        "icon": "assets/gw2/items/91734.png",
+        "type": "Consumable"
+      },
+      "utility": {
+        "name": "Potion Of Karka Toughness",
+        "id": 42428,
+        "icon": "assets/gw2/items/42428.png",
+        "type": "Consumable"
+      },
+      "relic": {
+        "name": "Relic of the Living City",
+        "id": 104928,
+        "icon": "assets/gw2/items/104928.png",
+        "type": "Relic"
+      }
+    }
   }
 }
