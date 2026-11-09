@@ -543,70 +543,70 @@ body[data-page="build"] .build-actions{margin:18px 0 36px}
 }
 
 
-body[data-page="roaming"] .build-matrix{
+body:is([data-page="roaming"],[data-page="guildies"]) .build-matrix{
   grid-template-columns:190px minmax(560px,1fr);
   min-width:760px;
 }
-body[data-page="roaming"] .roaming-cell{
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-cell{
   grid-template-columns:repeat(6,minmax(0,1fr));
   grid-auto-flow:row;
   grid-auto-rows:minmax(0,1fr);
 }
 
-body[data-page="roaming"] .roaming-count-1{grid-template-columns:1fr}
-body[data-page="roaming"] .roaming-count-2{grid-template-columns:repeat(2,minmax(0,1fr))}
-body[data-page="roaming"] .roaming-count-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-body[data-page="roaming"] .roaming-count-4{grid-template-columns:repeat(4,minmax(0,1fr))}
-body[data-page="roaming"] .roaming-count-5,
-body[data-page="roaming"] .roaming-count-6{grid-template-columns:repeat(3,minmax(0,1fr))}
-body[data-page="roaming"] .roaming-count-7,
-body[data-page="roaming"] .roaming-count-8{grid-template-columns:repeat(4,minmax(0,1fr))}
-body[data-page="roaming"] .roaming-count-9{grid-template-columns:repeat(3,minmax(0,1fr))}
-body[data-page="roaming"] .roaming-count-10,
-body[data-page="roaming"] .roaming-count-11,
-body[data-page="roaming"] .roaming-count-12{grid-template-columns:repeat(4,minmax(0,1fr))}
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-1{grid-template-columns:1fr}
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-5,
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-6{grid-template-columns:repeat(3,minmax(0,1fr))}
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-7,
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-8{grid-template-columns:repeat(4,minmax(0,1fr))}
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-9{grid-template-columns:repeat(3,minmax(0,1fr))}
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-10,
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-11,
+body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-12{grid-template-columns:repeat(4,minmax(0,1fr))}
 
 @media (min-width:1000px) and (min-height:800px){
-  body[data-page="roaming"] .build-matrix{
+  body:is([data-page="roaming"],[data-page="guildies"]) .build-matrix{
     grid-template-columns:170px minmax(0,1fr);
     grid-template-rows:34px repeat(9,minmax(0,1fr));
     min-width:0;
   }
-  body[data-page="roaming"] .roaming-cell .matrix-build-item{
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-cell .matrix-build-item{
     grid-template-columns:22px minmax(0,1fr);
     column-gap:6px;
     padding:4px 6px;
   }
-  body[data-page="roaming"] .roaming-cell .spec-icon{
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-cell .spec-icon{
     width:22px!important;height:22px!important;max-width:22px!important;max-height:22px!important;min-width:22px;min-height:22px;
   }
-  body[data-page="roaming"] .roaming-cell .build-label strong{font-size:10px}
-  body[data-page="roaming"] .roaming-cell .build-label small{font-size:6px}
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-cell .build-label strong{font-size:10px}
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-cell .build-label small{font-size:6px}
 }
 
 @media (max-width:760px){
-  body[data-page="roaming"] .build-matrix{grid-template-columns:1fr;min-width:0}
-  body[data-page="roaming"] .matrix-profession{grid-column:1}
-  body[data-page="roaming"] .matrix-profession + .roaming-cell{
+  body:is([data-page="roaming"],[data-page="guildies"]) .build-matrix{grid-template-columns:1fr;min-width:0}
+  body:is([data-page="roaming"],[data-page="guildies"]) .matrix-profession{grid-column:1}
+  body:is([data-page="roaming"],[data-page="guildies"]) .matrix-profession + .roaming-cell{
     border-left:1px solid var(--border2);
     border-right:1px solid var(--border2);
     border-radius:0 0 10px 10px;
   }
-  body[data-page="roaming"] .matrix-profession + .roaming-cell::before{content:none}
-  body[data-page="roaming"] .roaming-cell.matrix-list{padding:5px!important;min-height:92px}
-  body[data-page="roaming"] .roaming-cell.matrix-empty{padding:5px!important;min-height:70px}
-  body[data-page="roaming"] .roaming-count-1{grid-template-columns:1fr}
-  body[data-page="roaming"] .roaming-count-2{grid-template-columns:repeat(2,minmax(0,1fr))}
-  body[data-page="roaming"] .roaming-count-3,
-  body[data-page="roaming"] .roaming-count-4,
-  body[data-page="roaming"] .roaming-count-5,
-  body[data-page="roaming"] .roaming-count-6,
-  body[data-page="roaming"] .roaming-count-7,
-  body[data-page="roaming"] .roaming-count-8,
-  body[data-page="roaming"] .roaming-count-9,
-  body[data-page="roaming"] .roaming-count-10,
-  body[data-page="roaming"] .roaming-count-11,
-  body[data-page="roaming"] .roaming-count-12{grid-template-columns:repeat(2,minmax(0,1fr))}
+  body:is([data-page="roaming"],[data-page="guildies"]) .matrix-profession + .roaming-cell::before{content:none}
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-cell.matrix-list{padding:5px!important;min-height:92px}
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-cell.matrix-empty{padding:5px!important;min-height:70px}
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-1{grid-template-columns:1fr}
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-3,
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-4,
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-5,
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-6,
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-7,
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-8,
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-9,
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-10,
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-11,
+  body:is([data-page="roaming"],[data-page="guildies"]) .roaming-count-12{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 
 .trait-pick:has(.trait-choice){grid-template-columns:18px 34px minmax(0,1fr)}.trait-choice{font-size:12px;color:var(--gold,#7cc7c9);text-align:center;font-weight:700}.trait-pick:has(.trait-choice) span{min-width:0}@media(max-width:760px){.trait-pick:has(.trait-choice){grid-template-columns:14px 30px minmax(0,1fr);gap:4px}.trait-choice{font-size:11px}}
