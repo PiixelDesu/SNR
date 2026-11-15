@@ -358,5 +358,29 @@
     "status": "approved",
     "updated": "2026-10-15",
     "notes": ""
+  },
+  {
+    "id": "power-berserker",
+    "profession": "warrior",
+    "category": "damage",
+    "name": "Power Berserker",
+    "specialization": "Berserker",
+    "description": "Power Berserker is a Guild Wars 2 WvW Damage build for Warrior, focused on dealing high damage with devastating attacks  .",
+    "gw2skills": "https://gw2skills.net/editor/?PKgAMJlRwEZUsJWJO+W6NAA-DWZYBRF5SMI/5QRFUINFG1lAVUB2e6IAjjIBsHuNIJg3i+nRAA-w",
+    "status": "approved",
+    "updated": "2026-11-14",
+    "notes": ""
+  },
+  {
+    "id": "power-soulbeast",
+    "profession": "ranger",
+    "category": "damage",
+    "name": "Power Soulbeast",
+    "specialization": "Soulbeast",
+    "description": "Power Soulbeast is a Guild Wars 2 WvW Damage build for Ranger, focused on dealing high damage with devastating attacks  .",
+    "gw2skills": "https://gw2skills.net/editor/?POwAkmNlRweybbsDGJW0XuP9bAyQEIA-DWRYiR3X9cQKFSTJRdhQFVgt3CCQA/to/ZEA-w",
+    "status": "approved",
+    "updated": "2026-11-14",
+    "notes": ""
   }
 ]
