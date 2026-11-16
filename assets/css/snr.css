@@ -864,3 +864,12 @@ body[data-page="build"] .build-advice-panel{min-width:0;border:1px solid var(--b
 body[data-page="build"] .build-advice-panel h2{font-family:Georgia,serif;font-size:22px;line-height:1.25;margin:0 0 18px;color:var(--text)}
 body[data-page="build"] .build-advice-panel .notes{font-size:14px;line-height:1.7}
 @media(max-width:1050px){body[data-page="build"] .build-content-columns{grid-template-columns:minmax(0,1fr);gap:18px}body[data-page="build"] .build-advice-panel{padding:20px}}
+
+/* Relic belongs with the amulet, using its otherwise empty card space. */
+.trinket-grid .amulet-relic{margin-top:auto;padding-top:12px;display:flex;flex-direction:column;gap:6px}
+.trinket-grid .amulet-relic-label{padding-top:8px;border-top:1px solid rgba(124,199,201,.12);color:var(--muted);font-size:8px;letter-spacing:.13em;text-transform:uppercase}
+.trinket-grid .amulet-relic .gear-extra{padding:0;border:0;background:transparent;gap:8px}
+.trinket-grid .amulet-relic .gear-extra .gear-icon{flex:0 0 34px;width:34px;height:34px}
+.trinket-grid .amulet-relic .gear-extra span{display:none}
+.trinket-grid .amulet-relic .gear-extra strong{font-size:10px}
+.trinket-grid .relic-standalone{justify-content:center}
