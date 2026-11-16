@@ -6519,13 +6519,13 @@
     }
   },
   "power-vindicator": {
-    "chat_code": "[&DQkDPg8qRR3cEdwRBhIrEtQR1BErEgYSyhHKEQcDBAMrEgYS1BErEgYS1BE=]",
-    "source": "http://gw2skills.net/editor/?PmgEEiWmZId0xOLKncWaS1UzQDqnemag913KTogCm8XqxOA-DWZYBR1CfLoDxwKkeKgmioKSBb/GUAB2D5fqAW0/MCA-w",
+    "chat_code": "[&DQkDPg8aRRbcEdwR1BErEisS1BEGEgYSyhHKEQIHBAMGEtQRKxIrEgYS1BE=]",
+    "source": "https://gw2skills.net/editor/?PmgEEiWGTIZ2x8KqzcWXSlWz4CK0eGZgp23ISoyCm8XaRLA-DWZYBRwRaLUAxoi0uU6pAaKiqLEyMBs9sQBEYPk/pCYR/zIA-w",
     "equipment": {
       "armor": [
         {
           "slot": "Head",
-          "stat": "Marauder",
+          "stat": "Assassin",
           "rune": {
             "name": "Superior Rune of the Scholar",
             "id": 24836,
@@ -6561,7 +6561,7 @@
         },
         {
           "slot": "Chest",
-          "stat": "Marauder",
+          "stat": "Berserker",
           "rune": {
             "name": "Superior Rune of the Scholar",
             "id": 24836,
@@ -6615,7 +6615,7 @@
         },
         {
           "slot": "Feet",
-          "stat": "Marauder",
+          "stat": "Berserker",
           "rune": {
             "name": "Superior Rune of the Scholar",
             "id": 24836,
@@ -6635,7 +6635,7 @@
       "weapons": [
         {
           "slot": "Weapon set 1 · Main hand",
-          "stat": "Berserker",
+          "stat": "Marauder",
           "sigils": [
             {
               "name": "Superior Sigil of Stamina",
@@ -6644,9 +6644,9 @@
               "type": "UpgradeComponent"
             },
             {
-              "name": "Superior Sigil of Force",
-              "id": 24615,
-              "icon": "assets/gw2/items/24615.png",
+              "name": "Superior Sigil of Energy",
+              "id": 24607,
+              "icon": "assets/gw2/items/24607.png",
               "type": "UpgradeComponent"
             }
           ],
@@ -6668,7 +6668,7 @@
         },
         {
           "slot": "Weapon set 2 · Main hand",
-          "stat": "Berserker",
+          "stat": "Marauder",
           "sigils": [
             {
               "name": "Superior Sigil of Bloodlust",
@@ -6677,9 +6677,9 @@
               "type": "UpgradeComponent"
             },
             {
-              "name": "Superior Sigil of Force",
-              "id": 24615,
-              "icon": "assets/gw2/items/24615.png",
+              "name": "Superior Sigil of Fire",
+              "id": 24548,
+              "icon": "assets/gw2/items/24548.png",
               "type": "UpgradeComponent"
             }
           ],
@@ -6721,7 +6721,7 @@
       "trinkets": [
         {
           "slot": "Amulet",
-          "stat": "Assassin",
+          "stat": "Marauder",
           "infusions": [
             {
               "name": "Magical Enrichment",
@@ -6733,7 +6733,7 @@
         },
         {
           "slot": "Ring 1",
-          "stat": "Assassin",
+          "stat": "Marauder",
           "infusions": [
             {
               "name": "Mighty WvW Infusion",
@@ -6757,7 +6757,7 @@
         },
         {
           "slot": "Ring 2",
-          "stat": "Assassin",
+          "stat": "Marauder",
           "infusions": [
             {
               "name": "Mighty WvW Infusion",
@@ -6781,7 +6781,7 @@
         },
         {
           "slot": "Accessory 1",
-          "stat": "Berserker",
+          "stat": "Marauder",
           "infusions": [
             {
               "name": "Mighty WvW Infusion",
@@ -6793,7 +6793,7 @@
         },
         {
           "slot": "Accessory 2",
-          "stat": "Berserker",
+          "stat": "Marauder",
           "infusions": [
             {
               "name": "Mighty WvW Infusion",
@@ -6805,7 +6805,7 @@
         },
         {
           "slot": "Back",
-          "stat": "Berserker",
+          "stat": "Marauder",
           "infusions": [
             {
               "name": "Mighty WvW Infusion",
@@ -6835,9 +6835,9 @@
         "type": "Consumable"
       },
       "relic": {
-        "name": "Relic of Isgarren",
-        "id": 99997,
-        "icon": "assets/gw2/items/99997.png",
+        "name": "Relic of the Thief",
+        "id": 101580,
+        "icon": "assets/gw2/items/101580.png",
         "type": "Relic"
       }
     }
